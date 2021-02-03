@@ -1,6 +1,6 @@
 package ch05_InitializationAndCleanup.Exercise20;
-//Exercise 20: (1) Create a main( ) that uses varargs instead of the ordinary main( ) syntax. Print
-//all the elements in the resulting args array. Test it with various numbers of command-line arguments.
+//Exercise 21: (1) Create an enum of the least-valuable six types of paper currency. Loop through the
+//values( ) and print each value and its ordinal( ).
 
 import static thinkinginjava.Utils.print;
 
