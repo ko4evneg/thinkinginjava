@@ -3,7 +3,8 @@ package ch06_accesscontrol.exercise2;
 //that collisions do in fact occur.
 
 import ch06_accesscontrol.exercise2.pkg.Vector;
-import java.util.Vector;
+//Can't compile!
+//import java.util.Vector;
 
 public class Init {
     public static void main(String[] args) {
