@@ -3,7 +3,7 @@ package ch06_accesscontrol.exercise1;
 
 import static thinkinginjava.Utils.print;
 
-public class init {
+public class Init {
     public static void main(String[] args) {
         ch06_accesscontrol.exercise1.pkg.Exercise1 ex = new ch06_accesscontrol.exercise1.pkg.Exercise1();
         print(ex);
