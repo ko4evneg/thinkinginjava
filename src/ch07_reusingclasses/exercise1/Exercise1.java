@@ -7,7 +7,6 @@ public class Exercise1 {
         System.out.println("Constructed");
     }
 }
-
 class Second {
     static Exercise1 ex;
 
