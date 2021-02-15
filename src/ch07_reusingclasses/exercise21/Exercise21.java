@@ -14,6 +14,7 @@ public class Exercise21 extends Base {
     }*/
 
     public static void main(String[] args) {
+        new Exercise21().print();
     }
 }
 
