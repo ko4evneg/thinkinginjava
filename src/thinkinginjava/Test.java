@@ -2,44 +2,29 @@ package thinkinginjava;
 
 import static thinkinginjava.Utils.print;
 
+enum Note {
+    MIDDLE_C, C_SHARP, B_FLAT; // Etc.
+}
+
+class Instrument {
+    public void play(Note n) {
+        print("Instrument.play()");
+    }
+}
+
+class Wind extends Instrument {
+    public void play(Note n) {
+        System.out.println("Wind.play() " + n);
+    }
+}
+
 public class Test {
-    private void print(){
-        System.out.println("void");
+    public static void tune(Instrument i) {
+        i.play(Note.MIDDLE_C);
     }
-}
 
-class TestTwo {
     public static void main(String[] args) {
-        Test t = new Test();
-        //Error!
-        //t.print();
-    }
-}
-
-class Insect {
-    private int i = 9;
-    protected int j;
-    Insect() {
-        print("i = " + i + ", j = " + j);
-        j = 39;
-    }
-    private static int x1 =
-            printInit("static Insect.x1 initialized");
-    static int printInit(String s) {
-                print(s);
-        return 47;
-    }
-}
-class Beetle extends Insect {
-    private int k = printInit("Beetle.k initialized");
-    public Beetle() {
-        print("k = " + k);
-        print("j = " + j);
-    }
-    private static int x2 =
-            4;
-    public static void main(String[] args) {
-        print("Beetle constructor");
-        Beetle b = new Beetle();
+        Wind flute = new Wind();
+        tune(flute); // Upcasting
     }
 }
