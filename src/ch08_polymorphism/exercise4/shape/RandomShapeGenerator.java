@@ -1,15 +1,16 @@
-package ch08_polymorphism.exercise2.shape;
+package ch08_polymorphism.exercise4.shape;
 
 import java.util.Random;
 
 public class RandomShapeGenerator {
     private Random rand = new Random();
     public Shape next() {
-        switch(rand.nextInt(3)) {
+        switch(rand.nextInt(4)) {
             default:
             case 0: return new Circle();
             case 1: return new Square();
             case 2: return new Triangle();
+            case 3: return new Ellipse();
         }
     }
 }

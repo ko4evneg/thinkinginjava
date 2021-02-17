@@ -1,4 +1,4 @@
-package ch08_polymorphism.exercise2.shape;
+package ch08_polymorphism.exercise3.shape;
 
 import java.util.Random;
 
