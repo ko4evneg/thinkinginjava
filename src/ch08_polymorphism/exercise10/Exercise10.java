@@ -19,8 +19,7 @@ class Base {
 
 public class Exercise10 extends Base {
     public static void main(String[] args) {
-        Exercise10 ex = new Exercise10();
-        Base base = (Base) ex;
+        Base base = new Exercise10(); //Upcast
         base.firstMethod();
     }
 

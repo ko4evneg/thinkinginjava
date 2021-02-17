@@ -12,6 +12,7 @@ public class Rodent {
     public static void main(String[] args) {
         Random random = new Random();
         Rodent[] rodents = new Rodent[10];
+
         for (int i = 0; i < rodents.length; i++) {
             int rand = random.nextInt(3);
             switch (rand) {
