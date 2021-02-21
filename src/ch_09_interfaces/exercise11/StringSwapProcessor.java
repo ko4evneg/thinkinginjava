@@ -16,8 +16,8 @@ class StringSwapAdapater implements Processor {
     }
 
     @Override
-    public Object process(Object input) {
-        return ss.swap(input.toString());
+    public String process(Object input) {
+        return ss.swap(input);
     }
 }
 

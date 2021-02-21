@@ -8,8 +8,8 @@ public class StringSwap {
     private static int counter = 0;
     private final int ref = counter++;
 
-    String swap(String s) {
-        char[] str = s.toCharArray();
+    String swap(Object s) {
+        char[] str = s.toString().toCharArray();
         for (int i = 1; i < str.length; i += 2) {
             char c = str[i];
             str[i] = str[i - 1];
