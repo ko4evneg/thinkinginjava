@@ -4,10 +4,15 @@ package ch_09_interfaces.exercise4;
 //that it works. Now put the abstract declaration for the method in the base class, thus eliminating the need for the
 //downcast.
 
+import ch07_reusingclasses.exercise21.Exercise21;
+
 import static thinkinginjava.Utils.print;
 
 abstract class Base {
     abstract void out();
+    void outTest(){
+        print("test");
+    }
 }
 
 public class Exercise4 extends Base {
@@ -23,5 +28,6 @@ public class Exercise4 extends Base {
 
     public static void main(String[] args) {
         downCast();
+        new Exercise4().outTest();
     }
 }
