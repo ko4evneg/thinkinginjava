@@ -1,10 +1,14 @@
-package ch10_innerclasses.exercise2;
-//Exercise 2: (1) Create a class that holds a String, and has a toString( ) method that displays this String. Add
-//several instances of your new class to a Sequence object, then display them.
+package ch10_innerclasses.exercise4;
+//Exercise 4: (2) Add a method to the class Sequence.SequenceSelector that produces the reference to the outer class
+//Sequence.
+
+import static thinkinginjava.Utils.print;
 
 interface Selector {
     boolean end();
+
     Object current();
+
     void next();
 }
 
@@ -35,6 +39,11 @@ public class Sequence {
         public void next() {
             if (i < items.length) i++;
         }
+
+        public Sequence getOuter() {
+            //Return of Outer class
+            return Sequence.this;
+        }
     }
 
     class Stringer {
@@ -54,15 +63,15 @@ public class Sequence {
         return new SequenceSelector();
     }
 
-    public static void main(String[] args) {
-        Sequence sequence = new Sequence(10);
-        for (int i = 0; i < 10; i++)
-            sequence.add(sequence.new Stringer(String.valueOf(i)));
+    @Override
+    public String toString() {
+        return "That's Sequence() class";
+    }
 
-        Selector selector = sequence.selector();
-        while (!selector.end()) {
-            System.out.print(selector.current() + " ");
-            selector.next();
-        }
+    public static void main(String[] args) {
+        Sequence sequence = new Sequence(1);
+        sequence.add(sequence.new Stringer(String.valueOf(0)));
+        Sequence.SequenceSelector selector = (Sequence.SequenceSelector) sequence.selector();
+        print(selector.getOuter());
     }
 }
