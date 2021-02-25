@@ -9,16 +9,19 @@ import static thinkinginjava.Utils.print;
 
 public class Exercise12 {
     private int x = 12;
-
     private void out() {
         print("out(), x = " + x);
     }
 
     public void anonInit() {
+        int y = 3;
+        y++;
         new Exercise12() {
             void runAnon() {
                 ++x;
                 out();
+                //can't access as not effectively final:
+                //print(y);
             }
         }.runAnon();
     }
