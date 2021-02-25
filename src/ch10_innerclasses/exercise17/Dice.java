@@ -1,0 +1,15 @@
+package ch10_innerclasses.exercise17;
+
+import java.util.Random;
+
+import static thinkinginjava.Utils.print;
+
+public class Dice implements TossedItem {
+    Random r = new Random();
+
+    @Override
+    public void toss() {
+        String s = String.valueOf(r.nextInt(6) + 1);
+        print("Dice tossed to " + s);
+    }
+}
