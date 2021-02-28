@@ -6,21 +6,12 @@ package ch10_innerclasses.exercise15;
 import static thinkinginjava.Utils.print;
 
 class Building {
-    public Building() {
-        print("Constructing building...");
-    }
-
     public Building(int height) {
         print("Constructing building (height: " + height + ")...");
     }
 }
 
 public class Exercise15 {
-    Building getBuilding(){
-        return new Building() {
-        };
-    }
-
     Building getHighBuilding(){
         return new Building(100500) {
         };
@@ -28,7 +19,7 @@ public class Exercise15 {
 
     public static void main(String[] args) {
         Exercise15 ex = new Exercise15();
-        ex.getBuilding();
+        ex.getHighBuilding();
         ex.getHighBuilding();
     }
 }
