@@ -8,10 +8,10 @@ public abstract class Event {
         start();
     }
     public void start() { // Allows restarting
-        eventTime = System.nanoTime() + delayTime;
+        eventTime = System.currentTimeMillis() + delayTime;
     }
     public boolean ready() {
-        return System.nanoTime() >= eventTime;
+        return System.currentTimeMillis() >= eventTime;
     }
 
     public abstract void action();
