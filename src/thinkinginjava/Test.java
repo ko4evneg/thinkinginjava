@@ -1,38 +1,30 @@
 package thinkinginjava;
 
+import java.util.*;
+
+import static thinkinginjava.Utils.print;
+
 public class Test {
-    public int i = 0;
-
-    interface Iface {void print();}
-
-    class Inner implements Iface{
-        public void print(){
-            System.out.println(++i);
-        }
-    }
-
-    Iface getInn1(){
-        return new Inner();
-    }
-
-    Iface getInn2(){
-        return new Iface(){
-            @Override
-            public void print() {
-                System.out.println(++i);
-            }
-        };
-    }
 
     public static void main(String[] args) {
-        Test t = new Test();
-        Iface i = t.getInn1();
-        Iface j = t.getInn2();
-        Iface k = t.getInn1();
-        i.print();
-        j.print();
-        k.print();
-        Inner a = t.new Inner();
-        a.print();
+        Collection<Integer> collection = new ArrayList<Integer>(Arrays.asList(1, 2, 3, 4, 5));
+        Integer[] moreInts = { 6, 7, 8, 9, 10 };
+        long l = System.nanoTime();
+        collection.addAll(Arrays.asList(moreInts));
+        print(System.nanoTime()  - l + "\n");
+// Runs significantly faster, but you can’t
+// construct a Collection this way:
+        l = System.nanoTime();
+        Collections.addAll(collection, 11, 12, 13, 14, 15);
+        print(System.nanoTime() - l + "\n");
+        l = System.nanoTime();
+        Collections.addAll(collection, moreInts);
+        print(System.nanoTime()  - l + "\n");
+// Produces a list "backed by" an array:
+        List<Integer> list = new ArrayList<>();
+        list = Arrays.asList(16, 17, 18, 19, 20);
+        list.set(1, 99); // OK -- modify an element
+        collection.add(21); // Runtime error because the
+// underlying array cannot be resized.
     }
 }
