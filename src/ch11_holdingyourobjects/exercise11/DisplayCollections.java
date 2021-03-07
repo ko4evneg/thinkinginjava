@@ -12,9 +12,12 @@ public class DisplayCollections {
         List<Integer> list = new ArrayList<>(List.of(1,2,3));
         Set<Integer> set = new HashSet<>(List.of(4,5,6));
         Queue<Integer> queue = new PriorityQueue<>(List.of(7,8,9));
+        Stack<Integer> stack = new Stack<>();
+        stack.addAll(List.of(10,11,12));
         displayCollection(list);
         displayCollection(set);
         displayCollection(queue);
+        displayCollection(stack);
     }
 
     public static void displayCollection(Collection c) {
