@@ -2,6 +2,7 @@ package thinkinginjava;
 
 import java.io.PrintStream;
 import java.util.LinkedList;
+import java.util.Stack;
 
 public class Utils {
     public static void print (String s) {
