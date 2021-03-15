@@ -29,7 +29,7 @@ public class RandomShapeGenerator implements Iterable{
             }
 
             @Override
-            public Object next() {
+            public Shape next() {
                 return RandomShapeGenerator.this.next(i > 3 ? i++ % 4 : i++);
             }
         };
