@@ -18,7 +18,7 @@ public class MyException extends Exception {
 
     public static void main(String[] args) {
         try {
-            throw new MyException("My exception occured!");
+            throw new MyException("My exception occurred!");
         } catch (MyException e) {
             e.getError();
         }
