@@ -4,17 +4,30 @@ import java.util.*;
 
 import static thinkinginjava.Utils.print;
 
-public class Test {
-    public static void main(String[] args) {
-        Outer.Nested.pr();
+// An exception that reports through a Logger.
+import java.util.logging.*;
+import java.io.*;
+
+class LoggingException extends Exception {
+    private static Logger logger =
+            Logger.getLogger("LoggingException");
+    public LoggingException() {
+        StringWriter trace = new StringWriter();
+        printStackTrace(new PrintWriter(trace));
+        logger.severe(trace.toString());
     }
 }
-
-class Outer {
-    static class Nested {
-        static void pr(){
-            System.out.println("pr()");
+public class Test {
+    public static void main(String[] args) {
+        try {
+            throw new LoggingException();
+        } catch(LoggingException e) {
+            System.err.println("Caught " + e);
+        }
+        try {
+            throw new LoggingException();
+        } catch(LoggingException e) {
+            System.err.println("Caught " + e);
         }
     }
 }
-
