@@ -9,7 +9,14 @@ import java.util.logging.*;
 import java.io.*;
 
 public class Test {
+    public static void main(String[] args) {
+        Object a = null;
+        test(a);
+    }
 
+    static void test(Object o) {
+        o.hashCode();
+    }
 }
 
 class DynamicFieldsException extends Exception {

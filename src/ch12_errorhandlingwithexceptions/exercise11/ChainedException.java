@@ -7,7 +7,7 @@ package ch12_errorhandlingwithexceptions.exercise11;
 //RuntimeException.
 
 public class ChainedException {
-    public static void f() throws RuntimeException{
+    public static void f(){
         try {
             g();
         } catch (InnerException e) {
