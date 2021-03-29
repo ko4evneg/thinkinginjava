@@ -19,7 +19,10 @@ public class Conversions {
 								"bool: %b/%b\n" +
 								"int: %b\n" +
 								"obj: %b\n" +
-								"null: %b", false, true, -1, new Object(), null);
+								"null: %b\n", false, true, -1, new Object(), null);
+				for (byte b : "Bytecode".getBytes()) {
+						System.out.printf("%1$2x(%1$03d) ", b);
+				}
 
 		}
 }
