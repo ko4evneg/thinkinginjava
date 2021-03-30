@@ -9,6 +9,10 @@ public class Utils {
         System.out.println(s);
     }
 
+    public static void printnb (String s) {
+        System.out.print(s);
+    }
+
     public static void print () {
         System.out.println();
     }
