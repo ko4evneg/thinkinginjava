@@ -20,7 +20,7 @@ public class Groups {
 
 		static public Set<String> words = new LinkedHashSet<>();
 		public static void main(String[] args) {
-				Matcher m = Pattern.compile("\\b([a-z]+)\\b").matcher(POEM);
+				Matcher m = Pattern.compile("\\b[a-z]+\\b").matcher(POEM);
 				while(m.find()) {
 					words.add(m.group());
 				}
