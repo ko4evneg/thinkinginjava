@@ -15,18 +15,16 @@ import java.util.regex.Pattern;
 
 class Test {
 		public static void main(String[] args) {
-				Matcher m1 = Pattern.compile("La.*\\s").matcher("a big La pattern!");
-				Matcher m2 = Pattern.compile("La.*\\s").matcher("La pattern!");
-				Matcher m3 = Pattern.compile("La.*\\s").matcher("La ");
+				String str = "La big Lahuy pattern!";
+				Matcher m1 = Pattern.compile("(La.*?)\\s").matcher(str);
 
+				StringBuffer sb = new StringBuffer();
 				while (m1.find()) {
-						System.out.println(m1.group());
+						//m1.appendReplacement(sb, "ZALUPA");
+
 				}
-				while (m2.find()) {
-						System.out.println(m2.lookingAt());
-				}
-				while (m3.find()) {
-						System.out.println(m3.matches());
-				}
+				//m1.appendTail(sb);
+				print(sb);
+				print(str);
 		}
 }
