@@ -11,7 +11,8 @@ public class NarrowingTest {
             int iMax = (int) lMax;
             int iMid = (int) lMid;
             int iNeg = (int) lNeg;
-    print(Integer.MAX_VALUE);
+
+            print(Integer.MAX_VALUE);
             print(String.format("lMax = %d\n(int) lMax = %d", lMax, iMax));
             print(String.format("lBin = %s\niBin = %s", Long.toBinaryString(lMax), Long.toBinaryString(iMax)));
 
