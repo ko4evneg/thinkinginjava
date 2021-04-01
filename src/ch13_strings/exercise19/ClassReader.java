@@ -22,9 +22,6 @@ public class ClassReader {
 				File file = new File(fileName);
 				Pattern p = Pattern.compile("class\\s+([A-Z]\\w*)\\s+\\{", Pattern.DOTALL);
 
-				/*some test multiline
-				comment*/
-
 				BufferedReader fileReader = new BufferedReader(new FileReader(file));
 				StringBuilder fileString = new StringBuilder();
 				while (fileReader.ready()) {
