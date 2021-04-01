@@ -49,6 +49,7 @@ public class JGrep {
 								while (m.find())
 										System.out.println(index++ + ": " + m.group() + ": " + m.start());
 						}
+						fileReader.close();
 				}
 		}
 }

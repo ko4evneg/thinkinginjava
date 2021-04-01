@@ -15,16 +15,14 @@ import java.util.regex.Pattern;
 
 class Test {
 		public static void main(String[] args) {
-				String str = "La big Lahuy pattern!";
-				Matcher m1 = Pattern.compile("(La.*?)\\s").matcher(str);
+				String str = "/*Exercise 17: (8) Write a program that reads a Java source-code\n //file (you provide the file name on the command line)\n" +
+								"//and displays all the\n" +
+								" comments.*\\XD";
+				Matcher m1 = Pattern.compile("",Pattern.DOTALL).matcher(str);
 
-				StringBuffer sb = new StringBuffer();
 				while (m1.find()) {
-						//m1.appendReplacement(sb, "ZALUPA");
-
+						print(m1.group());
 				}
-				//m1.appendTail(sb);
-				print(sb);
-				print(str);
+
 		}
 }
