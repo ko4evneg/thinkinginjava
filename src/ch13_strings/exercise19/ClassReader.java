@@ -1,4 +1,4 @@
-package ch13_strings.exercise18;
+package ch13_strings.exercise19;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -7,20 +7,20 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import static thinkinginjava.Utils.printf;
-//Exercise 17: (8) Write a program that reads a Java source-code file (you provide the file name on the command line)
-//and displays all the comments.
+//Exercise 19: (8) Building on the previous two exercises, write a program that examines Java source code and produces
+//all the class names used in a particular program.
 
-public class StringsReader {
+public class ClassReader {
 		public static void main(String[] args) throws Exception {
 				//Args verification:
-				if (args.length < 2) {
-						System.out.println("Usage: file or directory path should be provided. Regex must be provided.");
+				if (args.length < 1) {
+						System.out.println("Usage: file or directory path should be provided.");
 						System.exit(0);
 				}
 				//File reading:
 				String fileName = args[0];
 				File file = new File(fileName);
-				Pattern p = Pattern.compile(args[1]);
+				Pattern p = Pattern.compile("class\\s+([A-Z]\\w*)\\s+\\{", Pattern.DOTALL);
 
 				/*some test multiline
 				comment*/
@@ -30,11 +30,16 @@ public class StringsReader {
 				while (fileReader.ready()) {
 						fileString.append(fileReader.readLine() + System.lineSeparator());
 				}
-				printf("File %s Strings:\n", file.getName());
+				printf("File %s Classes:\n", file.getName());
 				Matcher m = p.matcher(fileString.toString());
 				int index = 0;
 				while (m.find())
-						System.out.println("String " + index++ + ": " + m.group());
+						System.out.println("Class " + index++ + ": " + m.group(1));
 				fileReader.close();
+		}
+}
+
+class TestClass {
+		class InnerClass {
 		}
 }
