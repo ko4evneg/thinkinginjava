@@ -1,4 +1,4 @@
-package thinkinginjava;
+package outofscopelearning;
 
 import static thinkinginjava.Utils.print;
 
