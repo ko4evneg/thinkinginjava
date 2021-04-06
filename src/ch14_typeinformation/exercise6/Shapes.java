@@ -2,6 +2,7 @@ package ch14_typeinformation.exercise6;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.Consumer;
 
 import static thinkinginjava.Utils.print;
 
@@ -50,10 +51,10 @@ public class Shapes {
 				List<Shape> shapeList = Arrays.asList(
 								new Circle(), new Square(), new Triangle(), new Rhomboid()
 				);
-				for (Shape shape : shapeList) {
+				shapeList.forEach(shape -> {
 						if (shape instanceof Square)
 								shape.highlighted = true;
 						print(shape);
-				}
+				});
 		}
 }
