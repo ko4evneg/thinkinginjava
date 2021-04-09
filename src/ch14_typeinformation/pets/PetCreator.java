@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Random;
 
 public abstract class PetCreator {
-		private Random rand = new Random();
+		private Random rand = new Random(47);
 		public abstract List<Class<? extends Pet>> types();
 
 		public Pet randomPet() { // Create one random Pet
