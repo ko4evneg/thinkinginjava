@@ -1,9 +1,10 @@
-package ch14_typeinformation.pets;
+package ch14_typeinformation.exercise11;
 
+import ch14_typeinformation.pets.Pet;
 import java.util.LinkedHashMap;
 import java.util.Map;
-
-import static thinkinginjava.Utils.*;
+import static thinkinginjava.Utils.print;
+import static thinkinginjava.Utils.printnb;
 
 public class PetCount3 {
 		static class PetCounter extends LinkedHashMap<Class<? extends Pet>, Integer> {
@@ -35,7 +36,7 @@ public class PetCount3 {
 		}
 
 		public static void main(String[] args) {
-				PetCount3.PetCounter petCount = new PetCount3.PetCounter();
+				PetCounter petCount = new PetCounter();
 				for (Pet pet : Pets.createArray(20)) {
 						printnb(pet.getClass().getSimpleName() + " ");
 						petCount.count(pet);

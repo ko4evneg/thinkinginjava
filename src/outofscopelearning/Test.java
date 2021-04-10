@@ -8,21 +8,18 @@ class Candy {
 class Gum {
 		static { print("Loading Gum"); }
 }
+
+class BubbleGum extends Gum {
+		}
+
 class Cookie {
 		static { print("Loading Cookie"); }
 }
 public class Test {
 		public static void main(String[] args) {
-				print("inside main");
-				new Candy();
-				print("After creating Candy");
-				try {
-						Class.forName("Gum");
-				} catch(ClassNotFoundException e) {
-						print("Couldn’t find Gum");
-				}
-				print("After Class.forName(\"Gum\")");
-				new Cookie();
-				print("After creating Cookie");
+			Gum g  = new Gum();
+			BubbleGum b = new BubbleGum();
+				System.out.println(BubbleGum.class.isInstance(g));
+				System.out.println(Gum.class.isInstance(b));
 		}
 }
