@@ -7,6 +7,8 @@ import static thinkinginjava.Utils.print;
 //native and final (hint: use the OR operator’|’)-
 
 public class ShowMethods {
+    private ShowMethods(int i){}
+    ShowMethods(){}
     private static String usage =
             "usage:\n" +
                     "ShowMethods qualified.class.name\n" +
