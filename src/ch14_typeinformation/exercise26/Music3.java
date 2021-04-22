@@ -81,6 +81,7 @@ public class Music3 {
             System.out.println(orchestra[i]);
             if (orchestra[i] instanceof Wind) {
                 Method m = orchestra[i].getClass().getMethod("clearSpitValve");
+                //method must be public
                 m.invoke(orchestra[i]);
             }
         }
