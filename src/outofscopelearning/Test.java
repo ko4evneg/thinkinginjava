@@ -3,23 +3,40 @@ package outofscopelearning;
 import static thinkinginjava.Utils.print;
 
 class Candy {
-		static { print("Loading Candy"); }
+		static {
+				print("Loading Candy");
+		}
 }
+
 class Gum {
-		static { print("Loading Gum"); }
+		static {
+				print("Loading Gum");
+		}
 }
 
 class BubbleGum extends Gum {
-		}
+}
 
 class Cookie {
-		static { print("Loading Cookie"); }
+		static {
+				print("Loading Cookie");
+		}
 }
-public class Test {
+
+public class Test<T> {
+		public T t;
+
 		public static void main(String[] args) {
-			Gum g  = new Gum();
-			BubbleGum b = new BubbleGum();
-				System.out.println(BubbleGum.class.isInstance(g));
-				System.out.println(Gum.class.isInstance(b));
+				Test<String> test = new Test<>();
+				test.t = "t string outer";
+				Test.Nested<String> testNested = new Test.Nested<>();
+				testNested.t = "t shadowed";
+				System.out.println(test.t);
+				System.out.println(testNested.t);
+		}
+
+		static class Nested<T> {
+				public T t;
+
 		}
 }
