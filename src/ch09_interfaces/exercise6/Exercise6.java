@@ -3,7 +3,7 @@ package ch09_interfaces.exercise6;
 
 import ch09_interfaces.exercise6.pkg.Methods;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class Exercise6 implements Methods {
     @Override

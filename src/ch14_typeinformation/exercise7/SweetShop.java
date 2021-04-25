@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 //Exercise 7: (3) Modify SweetShop.java so that each type of object creation is controlled by a command-line argument.
 //That is, if your command line is "Java Sweetshop Candy," then only the Candy object is created. Notice how you can
 //control which Class objects are loaded via the commandline argument.

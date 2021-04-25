@@ -1,7 +1,7 @@
 package ch10_innerclasses.exercise18;
 //Exercise 18: (1) Create a class containing a nested class. In main( ), create an instance of the nested class.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 class Outer {
     int i = 5;

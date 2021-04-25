@@ -1,7 +1,7 @@
 package ch07_reusingclasses.exercise12;
 //Exercise 12: (3) Add a proper hierarchy of dispose( ) methods to all the classes in Exercise 9.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 class Root {
     public Root() {

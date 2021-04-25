@@ -4,7 +4,7 @@ package ch04_controllingexecution.exercise2;
 
 import java.util.Random;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class Exercise2 {
     public static void main(String[] args) {

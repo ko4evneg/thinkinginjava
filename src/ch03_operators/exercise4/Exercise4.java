@@ -1,7 +1,7 @@
 package ch03_operators.exercise4;
 //Exercise 4: (2) Write a program that calculates velocity using a constant distance and a constant time.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class Exercise4 {
     static final double TIME = 4.3;

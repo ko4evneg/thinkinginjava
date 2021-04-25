@@ -2,7 +2,7 @@ package ch09_interfaces.exercise8;
 //Exercise 8: (2) In polymorphism.Sandwich.java, create an interface called FastFood (with appropriate methods) and
 //change Sandwich so that it also implements FastFood.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 interface FastFood {
     void eatFast();

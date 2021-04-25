@@ -1,6 +1,6 @@
 package ch08_polymorphism.exercise15;
 //Exercise 15: (2) Add a RectangularGlyph to PolyConstructors.java and demonstrate the problem described in this section.
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 class Glyph {
     void draw() {

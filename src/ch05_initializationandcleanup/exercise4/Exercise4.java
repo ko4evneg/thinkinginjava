@@ -2,7 +2,7 @@ package ch05_initializationandcleanup.exercise4;
 //Exercise 4: (1) Add an overloaded constructor to the previous exercise that takes a String argument and
 //prints it along with your message.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class Exercise4 {
     Exercise4(){

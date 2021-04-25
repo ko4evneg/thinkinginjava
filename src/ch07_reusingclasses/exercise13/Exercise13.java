@@ -2,9 +2,7 @@ package ch07_reusingclasses.exercise13;
 //Exercise 13: (2) Create a class with a method that is overloaded three times. Inherit a new class, add a new
 //overloading of the method, and show that all four methods are available in the derived class.
 
-import ch07_reusingclasses.exercise1.Exercise1;
-
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 class Base {
     public void outPrint() {

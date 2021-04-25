@@ -4,12 +4,11 @@ package ch11_holdingyourobjects.exercise17;
 //the keySet( ) and use it to move through the Map, looking up the Gerbil for each key and printing out the key and
 //telling the Gerbil to hop( ).
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class Gerbil {
     private static int count = 1;

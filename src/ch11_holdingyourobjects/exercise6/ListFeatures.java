@@ -4,7 +4,7 @@ package ch11_holdingyourobjects.exercise6;
 
 import java.util.*;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class ListFeatures {
     public static void main(String[] args) {

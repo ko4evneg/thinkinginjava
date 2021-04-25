@@ -9,7 +9,7 @@ package ch12_errorhandlingwithexceptions.exercise12;
 //Exercise 12: (3) Modify innerclasses/Sequence.java so that it throws an appropriate exception if you try to put in too
 //many elements.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 interface Selector {
     boolean end();

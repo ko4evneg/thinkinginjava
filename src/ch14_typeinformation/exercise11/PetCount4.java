@@ -1,8 +1,8 @@
 package ch14_typeinformation.exercise11;
 
 import ch14_typeinformation.pets.Pet;
-import static thinkinginjava.Utils.print;
-import static thinkinginjava.Utils.printnb;
+import static thinkinginjava.util.Utils.print;
+import static thinkinginjava.util.Utils.printnb;
 
 public class PetCount4 {
 		public static void main(String[] args) {

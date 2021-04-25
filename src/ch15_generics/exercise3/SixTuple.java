@@ -1,7 +1,7 @@
 package ch15_generics.exercise3;
 //Exercise 3 : (1) Create and test a SixTuple generic.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class SixTuple<A, B, C, D, E, F> extends FiveTuple<A, B, C, D, E> {
 		public final F sixths;

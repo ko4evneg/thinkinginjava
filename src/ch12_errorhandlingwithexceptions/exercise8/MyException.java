@@ -8,7 +8,7 @@ package ch12_errorhandlingwithexceptions.exercise8;
 //it without an exception specification to see what the compiler says. Add the appropriate exception specification. Try
 //out your class and its exception inside a try-catch clause.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class MyException extends Exception {
     private String exception;

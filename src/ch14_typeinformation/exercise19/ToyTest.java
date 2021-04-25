@@ -3,7 +3,7 @@ package ch14_typeinformation.exercise19;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 //Exercise 19: (4) In ToyTest.java, use reflection to create a Toy object using the non-default constructor.
 

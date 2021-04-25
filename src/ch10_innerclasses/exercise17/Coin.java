@@ -1,6 +1,6 @@
 package ch10_innerclasses.exercise17;
 
-import thinkinginjava.Utils;
+import thinkinginjava.util.Utils;
 
 import java.util.Random;
 

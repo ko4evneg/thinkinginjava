@@ -2,7 +2,7 @@ package ch14_typeinformation.exercise8;
 
 //Exercise 8: (5) Write a method that takes an object and recursively prints all the classes in that object’s hierarchy.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 class Base {}
 class LOne extends Base {}

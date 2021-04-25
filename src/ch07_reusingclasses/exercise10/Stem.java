@@ -1,7 +1,7 @@
 package ch07_reusingclasses.exercise10;
 //Exercise 10: (1) Modify the previous exercise so that each class only has non-default constructors.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 class Root {
     public Root() {

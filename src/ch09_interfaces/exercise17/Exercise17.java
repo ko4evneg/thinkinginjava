@@ -1,7 +1,7 @@
 package ch09_interfaces.exercise17;
 //Exercise 17: (2) Prove that the fields in an interface are implicitly static and final.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 interface StaticAndFinal {
     int i = 52;

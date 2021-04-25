@@ -3,7 +3,7 @@ package ch12_errorhandlingwithexceptions.exercise27;
 
 //Exercise 27: (1) Modify Exercise 3 to convert the exception to a RuntimeException.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class CatchArrayBoundsException {
     public static void main(String[] args) {

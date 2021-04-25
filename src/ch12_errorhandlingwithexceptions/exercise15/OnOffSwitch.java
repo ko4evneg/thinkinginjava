@@ -1,7 +1,7 @@
 package ch12_errorhandlingwithexceptions.exercise15;
 //Exercise 15: (2) Show that WithFinally.java doesn’t fail by throwing a RuntimeException inside the try block.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 class Switch {
     private boolean state = false;

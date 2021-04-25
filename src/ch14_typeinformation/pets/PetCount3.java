@@ -3,7 +3,7 @@ package ch14_typeinformation.pets;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import static thinkinginjava.Utils.*;
+import static thinkinginjava.util.Utils.*;
 
 public class PetCount3 {
 		static class PetCounter extends LinkedHashMap<Class<? extends Pet>, Integer> {

@@ -4,7 +4,7 @@ package ch09_interfaces.exercise4;
 //that it works. Now put the abstract declaration for the method in the base class, thus eliminating the need for the
 //downcast.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 abstract class Base {
     abstract void out();

@@ -2,7 +2,7 @@ package ch09_interfaces.exercise11;
 //Exercise 11: (4) Create a class with a method that takes a String argument and produces a result that swaps each pair
 //of characters in that argument. Adapt the class so that it works with interfaceprocessor.Apply.process( ).
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class StringSwap {
     private static int counter = 0;

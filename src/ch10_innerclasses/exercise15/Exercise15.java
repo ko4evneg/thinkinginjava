@@ -3,7 +3,7 @@ package ch10_innerclasses.exercise15;
 //"no-arg" constructor). Create a second class that has a method that returns a reference to an object of the first
 //class. Create the object that you return by making an anonymous inner class that inherits from the first class.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 class Building {
     public Building(int height) {

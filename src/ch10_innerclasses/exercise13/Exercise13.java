@@ -4,7 +4,7 @@ package ch10_innerclasses.exercise13;
 
 //Exercise 13: (1) Repeat Exercise 9 using an anonymous inner class.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 interface Valuable {
     void getValue();

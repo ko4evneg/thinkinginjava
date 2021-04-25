@@ -1,6 +1,6 @@
 package ch09_interfaces.exercise11;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class Apply {
     public static void process(Processor p, Object s) {

@@ -1,7 +1,7 @@
 package ch07_reusingclasses.exercise11;
 //Exercise 11: (3) Modify Detergent.java so that it uses delegation.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 class Cleanser {
     private String s = "Cleanser";

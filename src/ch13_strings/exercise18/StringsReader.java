@@ -6,7 +6,7 @@ import java.io.FileReader;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static thinkinginjava.Utils.printf;
+import static thinkinginjava.util.Utils.printf;
 //Exercise 17: (8) Write a program that reads a Java source-code file (you provide the file name on the command line)
 //and displays all the comments.
 

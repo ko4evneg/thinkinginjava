@@ -4,7 +4,7 @@ package ch06_accesscontrol.exercise8;
 //can only get them via a static method in ConnectionManager. When the ConnectionManager runs out of objects, it returns
 //a null reference. Test the classes in main( ).
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class ConnectionManager {
     static Connection[] connections = new Connection[10];

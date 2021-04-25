@@ -2,7 +2,7 @@ package ch14_typeinformation.exercise12;
 
 import java.util.Iterator;
 import java.util.Random;
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 //Exercise 12: (3) Use TypeCounter with the CoffeeGenerator.java class in the Generics chapter.
 
 public class CoffeeGenerator implements Generator<Coffee>, Iterable<Coffee> {

@@ -2,7 +2,7 @@ package ch14_typeinformation.exercise21;
 
 import java.util.Date;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 //Exercise 21: (3) Modify SimpleProxyDemo.java so that it measures method-call times.
 
 interface Interface {

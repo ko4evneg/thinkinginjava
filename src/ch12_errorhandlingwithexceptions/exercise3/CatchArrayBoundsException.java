@@ -1,7 +1,7 @@
 package ch12_errorhandlingwithexceptions.exercise3;
 //Exercise 3: (1) Write code to generate and catch an ArraylndexOutOfBoundsException.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class CatchArrayBoundsException {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
 package ch14_typeinformation.exercise1;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 //Exercise 1: (1) In ToyTest.java, comment out Toy’s default constructor and explain what happens.
 //newInstance can't perform as default constructor commented out

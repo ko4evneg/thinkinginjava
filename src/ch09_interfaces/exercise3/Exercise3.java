@@ -4,7 +4,7 @@ package ch09_interfaces.exercise3;
 //definition of this variable, give it a nonzero value. In the base-class constructor, call this method. In main( ),
 //create an object of the derived type, and then call its print( ) method. Explain the results.
 
-import thinkinginjava.Utils;
+import thinkinginjava.util.Utils;
 
 abstract class Printer {
     abstract void print();

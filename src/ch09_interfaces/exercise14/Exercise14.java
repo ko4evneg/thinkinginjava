@@ -4,7 +4,7 @@ package ch09_interfaces.exercise14;
 //Now write four methods, each of which takes one of the four interfaces as an argument. In main( ), create an object
 //of your class and pass it to each of the methods.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 class Base {
 }

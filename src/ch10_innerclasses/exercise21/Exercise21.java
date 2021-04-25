@@ -3,7 +3,7 @@ package ch10_innerclasses.exercise21;
 //your interface and displays the results. Implement your interface and pass an instance of your implementation to the
 //method.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public interface Exercise21 {
     class NestedClass{

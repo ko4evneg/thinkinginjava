@@ -1,6 +1,6 @@
 package ch03_operators.exercise9;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 //Exercise 9: (1) Display the largest and smallest numbers for both float and double exponential notation.
 public class Exercise9 {

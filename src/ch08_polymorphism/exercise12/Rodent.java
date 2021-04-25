@@ -3,9 +3,7 @@ package ch08_polymorphism.exercise12;
 //derived classes. Now add member objects to both the base and derived classes and show the order in which their
 //initialization occurs during construction.
 
-import java.util.Random;
-
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class Rodent {
     private Paws paws = new Paws("Rodent()");

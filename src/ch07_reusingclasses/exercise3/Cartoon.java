@@ -6,7 +6,7 @@ package ch07_reusingclasses.exercise3;
 //constructor for Cartoon( ), the compiler will synthesize a default constructor for you that
 //calls the base class constructor.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 class Art {
     Art() {

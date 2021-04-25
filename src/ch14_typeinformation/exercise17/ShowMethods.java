@@ -2,7 +2,7 @@ package ch14_typeinformation.exercise17;
 
 import java.lang.reflect.*;
 import java.util.regex.Pattern;
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 //Exercise 17: (2) Modify the regular expression in ShowMethods.java to additionally strip off the keywords
 //native and final (hint: use the OR operator’|’)-
 

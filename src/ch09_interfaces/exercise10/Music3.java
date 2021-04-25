@@ -3,7 +3,7 @@ package ch09_interfaces.exercise10;
 //Playable. Add Playable to the derived classes by including it in the implement s list. Change tune( ) so that it takes
 //a Playable instead of an Instrument.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 enum Note {
     MIDDLE_F, MIDDLE_C, MIDDLE_L

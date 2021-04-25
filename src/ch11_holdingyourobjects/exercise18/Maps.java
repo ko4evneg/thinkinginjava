@@ -5,7 +5,7 @@ package ch11_holdingyourobjects.exercise18;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class Maps {
     private static HashMap<String, String> hashMap = new HashMap<>();

@@ -1,6 +1,6 @@
 package ch05_initializationandcleanup.exercise17;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 //Exercise 17: (2) Create a class with a constructor that takes a String argument. During construction,
 //print the argument. Create an array of object references to this class, but don’t actually create

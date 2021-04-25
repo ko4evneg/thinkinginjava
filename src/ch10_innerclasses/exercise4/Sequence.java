@@ -2,7 +2,7 @@ package ch10_innerclasses.exercise4;
 //Exercise 4: (2) Add a method to the class Sequence.SequenceSelector that produces the reference to the outer class
 //Sequence.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 interface Selector {
     boolean end();

@@ -6,7 +6,7 @@ import java.nio.file.Paths;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static thinkinginjava.Utils.printf;
+import static thinkinginjava.util.Utils.printf;
 //Exercise 16: (5) Modify JGrep.java to accept a directory name or a file name as argument (if a directory is provided,
 //search should include all files in the directory). Hint: You can generate a list of file names with:
 //File[] files = new File(".").listFiles();

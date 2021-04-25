@@ -2,7 +2,7 @@ package ch09_interfaces.exercise19;
 
 import java.util.Random;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class Dice implements TossedItem {
     Random r = new Random();

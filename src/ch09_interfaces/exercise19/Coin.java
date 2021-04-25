@@ -1,6 +1,6 @@
 package ch09_interfaces.exercise19;
 
-import thinkinginjava.Utils;
+import thinkinginjava.util.Utils;
 
 import java.util.Random;
 

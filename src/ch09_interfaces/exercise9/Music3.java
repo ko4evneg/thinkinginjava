@@ -2,7 +2,7 @@ package ch09_interfaces.exercise9;
 //Exercise 9: (3) Refactor Musics.java by moving the common methods in Wind, Percussion and Stringed into an abstract
 //class.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 enum Note {
     MIDDLE_F, MIDDLE_C, MIDDLE_L

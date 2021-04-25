@@ -2,7 +2,7 @@ package ch12_errorhandlingwithexceptions.exercise17;
 //Exercise 17: (3) Modify polymorphism/Frog.java so that it uses try-finally to guarantee proper cleanup, and show that
 //this works even if you return from the middle of the try-finally.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 class Characteristic {
     private String s;

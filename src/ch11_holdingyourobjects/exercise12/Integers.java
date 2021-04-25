@@ -5,7 +5,7 @@ package ch11_holdingyourobjects.exercise12;
 
 import java.util.*;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class Integers {
     private static List<Integer> integers = new ArrayList<>();

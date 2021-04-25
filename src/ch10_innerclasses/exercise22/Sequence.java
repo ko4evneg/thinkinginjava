@@ -6,7 +6,7 @@ package ch10_innerclasses.exercise22;
 //reverseSelector( ), that produces a Selector that moves backward through the sequence. This kind of flexibility
 //is only available with inner classes.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 interface Selector {
     boolean end();

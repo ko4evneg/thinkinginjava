@@ -1,6 +1,6 @@
 package thinkinginjava;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class Flower {
     int petalCount = 0;

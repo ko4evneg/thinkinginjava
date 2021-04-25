@@ -1,13 +1,10 @@
 package outofscopelearning;
 
 import java.util.*;
-import java.util.function.BinaryOperator;
-import java.util.function.Consumer;
-import java.util.function.Function;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class StreamsTest {
 		public static void main(String[] args) {

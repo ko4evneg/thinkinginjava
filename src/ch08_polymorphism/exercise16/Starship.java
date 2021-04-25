@@ -2,7 +2,7 @@ package ch08_polymorphism.exercise16;
 //Exercise 16: (3) Following the example in Transmogrify.java, create a Starship class containing an AlertStatus
 //reference that can indicate three different states. Include methods to change the states.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 class AlertState {
     void light() {

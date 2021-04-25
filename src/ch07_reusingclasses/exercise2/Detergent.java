@@ -1,6 +1,6 @@
 package ch07_reusingclasses.exercise2;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 class Cleanser {
     private String s = "Cleanser";

@@ -6,7 +6,7 @@ package ch08_polymorphism.exercise9;
 
 import java.util.Random;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class Rodent {
     public static void main(String[] args) {

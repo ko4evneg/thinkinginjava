@@ -3,7 +3,7 @@ package ch03_operators.exercise11;
 // constant). Using the signed right-shift operator, right shift it all the way through all of its binary positions,
 // each time displaying the result using Integer.toBinaryString( ).
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class Exercise11 {
     public static void main(String[] args) {

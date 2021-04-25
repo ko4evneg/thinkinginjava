@@ -1,7 +1,7 @@
 package ch03_operators.exercise3;
 //Exercise 3: (1) Create a class containing a float and use it to demonstrate aliasing during method calls.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class Exercise3 {
     public static void main(String[] args) {

@@ -1,7 +1,7 @@
 package ch10_innerclasses.exercise10;
 //Exercise 10: (1) Repeat the previous exercise but define the inner class within a scope within a method.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 interface Valuable {
     void getValue();

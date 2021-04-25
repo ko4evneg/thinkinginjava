@@ -2,7 +2,7 @@ package ch03_operators.exercise6;
 //Exercise 6: (3) Following Exercise 5, create a new Dog reference and assign it to spot’s object. Test for comparison
 //using == and equals( ) for all references.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class Dog {
     String name;

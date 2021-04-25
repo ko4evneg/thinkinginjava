@@ -3,7 +3,7 @@ package ch05_initializationandcleanup.exercise11;
 
 import ch05_initializationandcleanup.exercise10.Exercise10;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class Exercise11 {
     public static void main(String[] args) {

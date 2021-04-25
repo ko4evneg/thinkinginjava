@@ -3,7 +3,7 @@ package ch13_strings.exercise13;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 //Exercise 13: (2) Modify StartEnd.java so that it uses Groups.POEM as input, but still produces positive outputs for
 //find( ), lookingAt( ) and matches( ).
 

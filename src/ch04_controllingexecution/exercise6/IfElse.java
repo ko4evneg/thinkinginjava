@@ -2,7 +2,7 @@ package ch04_controllingexecution.exercise6;
 //Exercise 6: (2) Modify the two test( ) methods in the previous two programs so that they take two extra arguments,
 //begin and end, and so that testval is tested to see if it is within the range between (and including) begin and end.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class IfElse {
     static int result = 0;

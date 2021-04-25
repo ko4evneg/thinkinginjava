@@ -6,7 +6,7 @@ package ch11_holdingyourobjects.exercise4;
 
 import java.util.*;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class Generator {
     private String[] names = {"Sarah Connor","John Connor","Terminator"};

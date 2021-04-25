@@ -4,7 +4,7 @@ package ch09_interfaces.exercise1;
 
 import java.util.Random;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public abstract class Rodent {
     public static void main(String[] args) {

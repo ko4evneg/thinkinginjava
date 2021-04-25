@@ -1,9 +1,6 @@
 package ch14_typeinformation.exercise3;
 
-import java.util.Arrays;
-import java.util.List;
-
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 //Exercise 3: (2) Add Rhomboid to Shapes.java. Create a Rhomboid, upcast it to a Shape, then downcast it back to a
 //Rhomboid. Try downcasting to a Circle and see what happens.

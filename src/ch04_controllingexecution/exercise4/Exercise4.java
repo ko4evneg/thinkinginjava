@@ -2,7 +2,7 @@ package ch04_controllingexecution.exercise4;
 //Exercise 4: (3) Write a program that uses two nested for loops and the modulus operator (%) to detect and print prime
 //numbers (integral numbers that are not evenly divisible by any other numbers except for themselves and 1).
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class Exercise4 {
     public static void main(String[] args) {

@@ -6,7 +6,7 @@ package ch12_errorhandlingwithexceptions.exercise24;
 
 import java.util.Random;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 class RandomLowNumberException extends Exception {
 }

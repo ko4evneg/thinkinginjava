@@ -3,7 +3,7 @@ package ch14_typeinformation.exercise14;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 //Exercise 14: (4) A constructor is a kind of factory method. Modify RegisteredFactories.java so that instead of using
 //an explicit factory, the class object is stored in the List, and newlnstance( ) is used to create each object.
 

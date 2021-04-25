@@ -3,7 +3,7 @@ package ch09_interfaces.exercise7;
 
 import java.util.Random;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 interface Rodent {
     void run();

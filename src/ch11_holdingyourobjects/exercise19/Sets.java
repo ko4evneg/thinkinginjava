@@ -4,12 +4,10 @@ package ch11_holdingyourobjects.exercise19;
 
 //Exercise 19: (2) Repeat the previous exercise with a HashSet and LinkedHashSet.
 
-import java.util.HashMap;
 import java.util.HashSet;
-import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class Sets {
     private static HashSet<String> hashSet = new HashSet<>();

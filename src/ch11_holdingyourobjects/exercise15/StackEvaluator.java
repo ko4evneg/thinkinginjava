@@ -6,7 +6,7 @@ package ch11_holdingyourobjects.exercise15;
 
 import thinkinginjava.Stack;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class StackEvaluator {
     private static final String EXPRESSION = "+U+n+c—+e+r+t—+a-+i-+n+t+y—+ -+r+u—+l+e+s—".replaceAll("—","-");

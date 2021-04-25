@@ -5,7 +5,7 @@ package ch06_accesscontrol.exercise5;
 //part of the “default” package.
 
 import ch06_accesscontrol.exercise5.testpack.AccessModifiersClass;
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class Exercise5 {
     public static void main(String[] args) {

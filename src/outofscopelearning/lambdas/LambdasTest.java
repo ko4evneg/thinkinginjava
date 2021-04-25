@@ -1,8 +1,6 @@
 package outofscopelearning.lambdas;
 
-import java.util.function.Consumer;
-
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class LambdasTest {
 		public static void main(String[] args) {

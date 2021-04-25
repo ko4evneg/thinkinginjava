@@ -2,7 +2,7 @@ package ch08_polymorphism.exercise13;
 //Exercise 13: (3) Add a finalize( ) method to ReferenceCounting.java to verify the termination condition (see the
 //Initialization & Cleanup chapter).
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 class Shared {
     private int refcount = 0;

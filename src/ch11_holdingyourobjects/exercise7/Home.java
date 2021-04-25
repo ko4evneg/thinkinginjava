@@ -4,7 +4,7 @@ package ch11_holdingyourobjects.exercise7;
 
 import java.util.*;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class Home {
     static Home[] homes = new Home[]{new Home("a"),new Home("b"),new Home("c"),new Home("d"),new Home("f")};

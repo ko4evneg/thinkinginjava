@@ -1,6 +1,6 @@
 package ch09_interfaces.exercise18;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class Unicycle implements Cycle {
     @Override

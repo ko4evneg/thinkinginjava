@@ -2,7 +2,7 @@ package ch10_innerclasses.exercise9;
 //Exercise 9: (1) Create an interface with at least one method, and implement that interface by defining an inner class
 //within a method, which returns a reference to your interface.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 interface Valuable {
     void getValue();

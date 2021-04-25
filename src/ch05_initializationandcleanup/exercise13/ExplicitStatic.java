@@ -9,7 +9,7 @@ package ch05_initializationandcleanup.exercise13;
 
 // Constructor wasn't called as new keyword hasn't been used.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 class Cup {
     Cup(int marker) {

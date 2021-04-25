@@ -1,6 +1,6 @@
 package ch14_typeinformation.pets;
 
-import static thinkinginjava.Utils.*;
+import static thinkinginjava.util.Utils.*;
 
 public class PetCount4 {
 		public static void main(String[] args) {

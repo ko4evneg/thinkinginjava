@@ -1,7 +1,7 @@
 package ch12_errorhandlingwithexceptions.exercise14;
 //Exercise 14: (2) Show that OnOffSwitch.java can fail by throwing a RuntimeException inside the try block.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 class Switch {
     private boolean state = false;

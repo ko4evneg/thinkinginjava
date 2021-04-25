@@ -3,9 +3,7 @@ package ch08_polymorphism.exercise10;
 //and override the second method. Create an object of the derived class, upcast it to the base type, and call the first
 //method. Explain what happens.
 
-import java.util.Base64;
-
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 class Base {
     void firstMethod() {

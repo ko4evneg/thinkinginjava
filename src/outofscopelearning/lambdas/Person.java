@@ -2,10 +2,9 @@ package outofscopelearning.lambdas;
 
 import java.util.Arrays;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class Person {
 		private String firstName;

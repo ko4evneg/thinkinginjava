@@ -5,7 +5,7 @@ package ch11_holdingyourobjects.exercise21;
 
 import java.util.*;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class WordsCount {
     private static Map<String, Integer> words = new LinkedHashMap<>();

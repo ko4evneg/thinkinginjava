@@ -3,7 +3,7 @@ package ch05_initializationandcleanup.exercise14;
 // and another one that is initialized by the static block. Add a static method that prints both fields and
 // demonstrates that they are both initialized before they are used.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class Exercise14 {
     public static void main(String[] args) {

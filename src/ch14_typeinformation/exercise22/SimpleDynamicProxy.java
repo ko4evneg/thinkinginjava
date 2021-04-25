@@ -1,6 +1,6 @@
 package ch14_typeinformation.exercise22;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 import java.lang.reflect.*;
 import java.util.Date;
 

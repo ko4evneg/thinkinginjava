@@ -2,7 +2,7 @@ package ch07_reusingclasses.exercise24;
 //Exercise 24: (2) In Beetle.java, inherit a specific type of beetle from class Beetle, following the same format as
 //the existing classes. Trace and explain the output.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 class Insect {
     private int i = 9;

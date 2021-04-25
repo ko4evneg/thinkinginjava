@@ -1,6 +1,6 @@
 package ch04_controllingexecution.exercise8;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 //Exercise 8: (2) Create a switch statement that prints a message for each case, and put the switch inside a for loop
 //that tries each case. Put a break after each case and test it, then remove the breaks and see what happens.

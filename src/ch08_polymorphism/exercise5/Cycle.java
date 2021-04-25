@@ -2,7 +2,7 @@ package ch08_polymorphism.exercise5;
 //Exercise 5: (1) Starting from Exercise 1, add a wheels( ) method in Cycle, which returns the number of wheels. Modify
 //ride( ) to call wheels( ) and verify that polymorphism works.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class Cycle {
     public static void main(String[] args) {

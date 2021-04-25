@@ -1,12 +1,9 @@
 package ch14_typeinformation.exercise20;
 
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Method;
 import java.util.Arrays;
-import java.util.List;
 
-import static thinkinginjava.Utils.print;
-import static thinkinginjava.Utils.printf;
+import static thinkinginjava.util.Utils.print;
+import static thinkinginjava.util.Utils.printf;
 //Exercise 20: (5) Look up the interface for java.lang.Class in the JDK documentation from http://java.sun.com. Write
 //a program that takes the name of a class as a command-line argument, then uses the Class methods to dump all the
 //information available for that class. Test your program with a standard library class and a class you create.

@@ -2,9 +2,8 @@ package ch14_typeinformation.exercise6;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.function.Consumer;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 //Exercise 6: (4) Modify Shapes.java so that it can "highlight" (set a flag in) all shapes of a particular type. The
 //toString( ) method for each derived Shape should indicate whether that Shape is "highlighted."

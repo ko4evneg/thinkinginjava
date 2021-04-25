@@ -4,7 +4,7 @@ package ch11_holdingyourobjects.exercise30;
 
 import java.util.*;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class CollectionSequence implements Collection {
     private Pet[] pets = Pets.createArray(8);

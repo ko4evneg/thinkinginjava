@@ -1,6 +1,6 @@
 package ch08_polymorphism.exercise8;
 //Exercise 8: (2) Modify Music3.java so that it randomly creates Instrument objects the way Shapes.java does.
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 enum Note {
     MIDDLE_F,MIDDLE_C,MIDDLE_L

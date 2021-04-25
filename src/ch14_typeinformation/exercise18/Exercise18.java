@@ -5,7 +5,7 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.util.regex.Pattern;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 //Exercise 18: (1) Make ShowMethods a non-public class and verify that the synthesized default constructor no longer
 // shows up in the output.
 

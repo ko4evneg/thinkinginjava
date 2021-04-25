@@ -1,6 +1,6 @@
 package ch06_accesscontrol.exercise6;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class ProtData {
     protected static int data = 5;

@@ -2,7 +2,7 @@ package ch08_polymorphism.exercise14;
 //Exercise 14: (4) Modify Exercise 12 so that one of the member objects is a shared object with reference counting,
 //and demonstrate that it works properly.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class Rodent {
     Hole hole;

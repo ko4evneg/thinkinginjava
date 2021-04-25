@@ -3,9 +3,9 @@
 //CoffeeGenerator.
 package ch15_generics.exercise8;
 
-import thinkinginjava.Generator;
+import thinkinginjava.util.Generator;
 import java.util.Random;
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class StoryCharacterGenerator implements Generator<StoryCharacter> {
 		private static Random rand = new Random();

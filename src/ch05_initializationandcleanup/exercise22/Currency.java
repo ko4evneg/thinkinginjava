@@ -1,7 +1,7 @@
 package ch05_initializationandcleanup.exercise22;
 //Exercise 22: (2) Write a switch statement for the enum in the previous example.
 //For each case, output a description of that particular currency.
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public enum Currency {
     RUBLE, BAT, DONG, YEN, LIRA, FRANK;

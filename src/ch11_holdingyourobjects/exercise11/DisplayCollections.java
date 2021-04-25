@@ -5,7 +5,7 @@ package ch11_holdingyourobjects.exercise11;
 
 import java.util.*;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class DisplayCollections {
     public static void main(String[] args) {

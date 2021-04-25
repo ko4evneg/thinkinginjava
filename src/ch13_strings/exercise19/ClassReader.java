@@ -6,7 +6,7 @@ import java.io.FileReader;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static thinkinginjava.Utils.printf;
+import static thinkinginjava.util.Utils.printf;
 //Exercise 19: (8) Building on the previous two exercises, write a program that examines Java source code and produces
 //all the class names used in a particular program.
 

@@ -8,7 +8,7 @@ package ch11_holdingyourobjects.exercise22;
 
 import java.util.*;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class WordsCount {
     private static TreeSet<Word> words = new TreeSet<>();

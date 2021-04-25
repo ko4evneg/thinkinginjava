@@ -5,7 +5,7 @@ package ch12_errorhandlingwithexceptions.exercise7;
 
 import java.util.logging.Logger;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class CatchArrayBoundsException {
     private static Logger logger = Logger.getLogger("My logger");

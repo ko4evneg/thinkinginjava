@@ -6,7 +6,7 @@ package ch11_holdingyourobjects.exercise27;
 import java.util.LinkedList;
 import java.util.Queue;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class Command {
     private String string;

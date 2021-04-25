@@ -2,7 +2,7 @@ package ch05_initializationandcleanup.exercise16;
 //Exercise 16: (1) Create an array of String objects and assign a String to each element.
 //Print the array by using a for loop.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class Exercise16 {
     public static void main(String[] args) {

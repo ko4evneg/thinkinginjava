@@ -1,6 +1,6 @@
 package ch03_operators.exercise8;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 //Exercise 8: (2) Show that hex and octal notations work with long values. Use Long.toBinaryString( ) to display
 //the results.

@@ -5,7 +5,7 @@ package ch12_errorhandlingwithexceptions.exercise13;
 //Exercise 13: (2) Modify Exercise 9 by adding a finally clause. Verify that your finally clause is executed, even if a
 //NullPointerException is thrown.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class ThreeExceptions {
     public static void throwAll(int i) throws Exception {

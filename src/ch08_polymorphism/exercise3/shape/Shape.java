@@ -1,6 +1,6 @@
 package ch08_polymorphism.exercise3.shape;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class Shape {
     public void draw() {}

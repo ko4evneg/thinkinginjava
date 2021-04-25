@@ -4,7 +4,7 @@ package ch07_reusingclasses.exercise18;
 
 import java.util.Random;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class Exercise18 {
     static final int NUM = new Random().nextInt(10);

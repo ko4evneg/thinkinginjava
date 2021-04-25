@@ -8,7 +8,7 @@ import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class TextRead {
     private static final String toAnalysis = "Create a Set of the vowels. Count and display the number of vowels.";

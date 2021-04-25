@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 //Exercise 13: (3) Use TypeCounter with the RegisteredFactories.java example in this chapter.
 //Exercise 24: (4) Add Null Objects to RegisteredFactories.java.
 

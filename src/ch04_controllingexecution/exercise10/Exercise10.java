@@ -7,7 +7,7 @@ package ch04_controllingexecution.exercise10;
 //2187 = 27 * 81
 //Write a program that finds all the 4-digit vampire numbers. (Suggested by Dan Forhan.)
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class Exercise10 {
     public static void main(String[] args) {

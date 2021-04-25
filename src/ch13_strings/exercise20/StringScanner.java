@@ -4,11 +4,10 @@ package ch13_strings.exercise20;
 //this class that takes a single String argument, and scans that string into the various fields. Add a toString( )
 //method and demonstrate that your class works correctly.
 
-import java.util.Formatter;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class StringScanner {
 		private int i;

@@ -2,7 +2,7 @@ package ch07_reusingclasses.exercise17;
 //Exercise 17: (1) Modify Exercise 16 so that Frog overrides the method definitions from the base class (provides new
 //definitions using the same method signatures). Note what happens in main( ).
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 class Amphibian {
     void swim(Amphibian a) {

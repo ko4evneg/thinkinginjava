@@ -1,6 +1,6 @@
 package ch05_initializationandcleanup.exercise9;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class Exercise9 {
     public Exercise9() {

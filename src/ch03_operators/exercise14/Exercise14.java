@@ -3,7 +3,7 @@ package ch03_operators.exercise14;
 //two Strings and print the results. For the == and !=, also perform the equals( ) test. In main( ), call your method
 //with some different String objects.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class Exercise14 {
     public static void main(String[] args) {

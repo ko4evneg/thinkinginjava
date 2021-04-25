@@ -3,9 +3,8 @@ package ch14_typeinformation.exercise23;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
-import java.util.Date;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 //Exercise 23: (3) Inside invoke( ) in SimpleDynamicProxy.java, try to print the proxy argument and explain what happens.
 

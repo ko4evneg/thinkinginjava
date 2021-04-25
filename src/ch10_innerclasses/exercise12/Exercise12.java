@@ -5,7 +5,7 @@ package ch10_innerclasses.exercise12;
 
 //Exercise 12: (1) Repeat Exercise 7 using an anonymous inner class.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class Exercise12 {
     private int x = 12;

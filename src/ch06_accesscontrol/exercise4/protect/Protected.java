@@ -1,6 +1,6 @@
 package ch06_accesscontrol.exercise4.protect;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class Protected {
     protected static void sayHi(){

@@ -7,10 +7,9 @@ package ch12_errorhandlingwithexceptions.exercise23;
 //exception, after which it creates a second disposable member object. Write code to properly guard against failure,
 //and in main( ) verify that all possible failure situations are covered.
 
-import java.util.Arrays;
 import java.util.Random;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 class RandomLowNumberException extends Exception {
 }

@@ -1,7 +1,7 @@
 package ch14_typeinformation.exercise13;
 
 import java.util.*;
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 //Exercise 13: (3) Use TypeCounter with the RegisteredFactories.java example in this chapter.
 
 class Part {

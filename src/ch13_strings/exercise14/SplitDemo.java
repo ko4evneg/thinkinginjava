@@ -1,8 +1,8 @@
 package ch13_strings.exercise14;
 
 import java.util.Arrays;
-import java.util.regex.Pattern;
-import static thinkinginjava.Utils.print;
+
+import static thinkinginjava.util.Utils.print;
 
 //Exercise 14: (1) Rewrite SplitDemo using String.split( ).
 

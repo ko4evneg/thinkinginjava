@@ -4,7 +4,7 @@ package ch12_errorhandlingwithexceptions.exercise5;
 
 import java.util.Random;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class LoopedException {
     private static Random random = new Random();

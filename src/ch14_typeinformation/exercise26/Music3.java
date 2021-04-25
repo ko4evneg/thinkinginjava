@@ -4,10 +4,9 @@ package ch14_typeinformation.exercise26;
 
 //Exercise 26: (3) Implement clearSpitValve( ) as described in the summary.
 
-import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 enum Note {
     MIDDLE_F,MIDDLE_C,MIDDLE_L

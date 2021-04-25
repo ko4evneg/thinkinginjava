@@ -1,6 +1,6 @@
 package ch08_polymorphism.exercise11;
 //Exercise 11: (1) Add class Pickle to Sandwich.java.
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 class Meal {
     Meal() { print("Meal()"); }

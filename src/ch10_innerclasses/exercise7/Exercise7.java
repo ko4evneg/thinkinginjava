@@ -3,7 +3,7 @@ package ch10_innerclasses.exercise7;
 //modifies the outer-class field and calls the outer-class method. In a second outer-class method, create an object of
 //the inner class and call its method, then show the effect on the outer-class object.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class Exercise7 {
     private int x = 12;

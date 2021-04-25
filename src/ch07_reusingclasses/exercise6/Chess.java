@@ -1,6 +1,6 @@
 package ch07_reusingclasses.exercise6;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 //Exercise 6: (1) Using Chess.java, prove the statements in the previous paragraph.
 
 class Game {

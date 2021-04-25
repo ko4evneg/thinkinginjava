@@ -1,6 +1,6 @@
 package outofscopelearning;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 class Candy {
 		static {

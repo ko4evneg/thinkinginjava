@@ -1,6 +1,6 @@
 package ch03_operators.exercise10;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 //Exercise 10: (3) Write a program with two constant values, one with alternating binary ones and zeroes, with a zero in
 //the least-significant digit, and the second, also alternating, with a one in the least-significant digit (hint: It’s

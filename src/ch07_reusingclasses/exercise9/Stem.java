@@ -3,7 +3,7 @@ package ch07_reusingclasses.exercise9;
 //named Component1, Component2, and Component3. Derive a class Stem from Root that also contains an instance of each
 //“component.” All classes should have default constructors that print a message about that class.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 class Root {
     public Root() {

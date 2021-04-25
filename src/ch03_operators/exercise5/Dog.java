@@ -2,7 +2,7 @@ package ch03_operators.exercise5;
 //Exercise 5: (2) Create a class called Dog containing two Strings: name and says. In main( ), create two dog objects
 //with names “spot” (who says, “Ruff!”) and “scruffy” (who says, “Wurf!”). Then display their names and what they say.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class Dog {
     String name;

@@ -3,7 +3,7 @@ package ch14_typeinformation.exercise5;
 import java.util.Arrays;
 import java.util.List;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 //Exercise 5: (3) Implement a rotate(Shape) method in Shapes.java, such that it checks to see if it is rotating a Circle
 //(and, if so, doesn’t perform the operation).

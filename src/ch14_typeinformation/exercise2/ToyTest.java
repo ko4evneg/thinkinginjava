@@ -1,6 +1,6 @@
 package ch14_typeinformation.exercise2;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 //Exercise 2: (2) Incorporate a new kind of interface into ToyTest.java and verify that it is detected and displayed properly.
 

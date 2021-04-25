@@ -1,7 +1,7 @@
 package ch09_interfaces.exercise15;
 //Exercise 15: (2) Modify the previous exercise by creating an abstract class and inheriting that into the derived class.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 abstract class Base implements CommonInterface{
 }

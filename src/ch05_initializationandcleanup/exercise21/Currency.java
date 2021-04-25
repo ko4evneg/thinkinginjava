@@ -1,6 +1,6 @@
 package ch05_initializationandcleanup.exercise21;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public enum Currency {
     RUBLE, BAT, DONG, YEN, LIRA, FRANK;

@@ -4,7 +4,7 @@ package ch11_holdingyourobjects.exercise14;
 
 import java.util.*;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class IntegerList {
     private static List<Integer> intList = new LinkedList<>();

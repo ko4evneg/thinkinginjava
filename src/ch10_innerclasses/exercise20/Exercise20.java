@@ -2,7 +2,7 @@ package ch10_innerclasses.exercise20;
 //Exercise 20: (1) Create an interface containing a nested class. Implement this interface and create an instance of
 //the nested class.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public interface Exercise20 {
     //implicitly static and public

@@ -2,7 +2,7 @@ package ch05_initializationandcleanup.exercise19;
 //Exercise 19: (2) Write a method that takes a vararg String array. Verify that you can pass either a
 //comma-separated list of Strings or a String[] into this method.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class Exercise19 {
     public static void main(String[] args) {

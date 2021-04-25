@@ -1,6 +1,6 @@
 package ch08_polymorphism.exercise7;
 //Exercise 7: (2) Add a new type of Instrument to Music3.java and verify that polymorphism works for your new type.
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 enum Note {
     MIDDLE_F,MIDDLE_C,MIDDLE_L

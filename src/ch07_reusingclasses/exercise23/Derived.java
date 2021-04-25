@@ -4,7 +4,7 @@ package ch07_reusingclasses.exercise23;
 
 
 import static ch07_reusingclasses.exercise23.Side.outSide;
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 final class Side {
     static {

@@ -5,7 +5,7 @@ package ch11_holdingyourobjects.exercise32;
 
 import java.util.*;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 class PetSequence {
     protected Pet[] pets = Pets.createArray(8);

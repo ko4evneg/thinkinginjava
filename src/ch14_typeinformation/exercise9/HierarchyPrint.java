@@ -7,7 +7,7 @@ package ch14_typeinformation.exercise9;
 
 import java.util.Arrays;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 class Base {
 		float f;

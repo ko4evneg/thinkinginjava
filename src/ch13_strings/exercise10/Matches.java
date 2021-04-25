@@ -1,7 +1,7 @@
 package ch13_strings.exercise10;
 
-import static thinkinginjava.Utils.print;
-import static thinkinginjava.Utils.printf;
+import static thinkinginjava.util.Utils.print;
+import static thinkinginjava.util.Utils.printf;
 
 //Exercise 10: (2) For the phrase "Java now has regular expressions" evaluate whether the following expressions will
 //find a match:

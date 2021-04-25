@@ -1,6 +1,6 @@
 package ch07_reusingclasses.exercise20;
 //Exercise 20: (1) Show that @Override annotation solves the problem in this section.
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 class WithFinals {
     // Identical to "private" alone:

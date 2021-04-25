@@ -4,7 +4,7 @@ package ch09_interfaces.exercise5;
 
 import ch09_interfaces.exercise5.pkg.Methods;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class Exercise5 implements Methods {
     @Override

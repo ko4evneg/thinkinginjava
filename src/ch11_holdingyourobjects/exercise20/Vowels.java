@@ -6,7 +6,7 @@ package ch11_holdingyourobjects.exercise20;
 
 import java.util.*;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class Vowels {
     private static final String[] VOWELS = "A, E, I, O, U, Y".toLowerCase().split(", ");

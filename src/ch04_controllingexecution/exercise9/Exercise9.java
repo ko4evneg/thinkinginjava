@@ -4,7 +4,7 @@ package ch04_controllingexecution.exercise9;
 //displays that many Fibonacci numbers starting from the beginning, e.g., If you run java Fibonacci 5 (where Fibonacci
 //is the name of the class) the output will be: 1, 1, 2, 3, 5.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class Exercise9 {
     public static void main(String[] args) {

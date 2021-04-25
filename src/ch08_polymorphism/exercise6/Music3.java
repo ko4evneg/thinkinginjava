@@ -1,7 +1,7 @@
 package ch08_polymorphism.exercise6;
 //Exercise 6: (1) Change Music3.java so that what( ) becomes the root Object method toString( ). Try printing the
 //Instrument objects using System.out.println( ) (without any casting).
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 enum Note {
     MIDDLE_F,MIDDLE_C,MIDDLE_L

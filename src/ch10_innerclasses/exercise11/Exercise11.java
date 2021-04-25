@@ -3,7 +3,7 @@ package ch10_innerclasses.exercise11;
 //reference to an instance of the private inner class, upcast to the interface. Show that the inner class is completely
 //hidden by trying to downcast to it.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class Exercise11 {
     private class VeryValuable implements Valuable {

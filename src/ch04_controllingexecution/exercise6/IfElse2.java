@@ -1,6 +1,6 @@
 package ch04_controllingexecution.exercise6;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class IfElse2 {
     static int test(int testval, int target, int begin, int end) {

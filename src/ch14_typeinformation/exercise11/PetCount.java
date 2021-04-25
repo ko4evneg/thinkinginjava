@@ -4,8 +4,8 @@ import ch14_typeinformation.pets.*;
 
 import java.util.HashMap;
 
-import static thinkinginjava.Utils.print;
-import static thinkinginjava.Utils.printnb;
+import static thinkinginjava.util.Utils.print;
+import static thinkinginjava.util.Utils.printnb;
 
 public class PetCount {
 		static class PetCounter extends HashMap<String, Integer> {

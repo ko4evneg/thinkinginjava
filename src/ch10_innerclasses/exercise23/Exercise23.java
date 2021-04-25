@@ -8,7 +8,7 @@ package ch10_innerclasses.exercise23;
 
 import java.util.Random;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 interface U {
     void one();

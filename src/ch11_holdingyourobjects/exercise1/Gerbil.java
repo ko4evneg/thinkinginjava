@@ -5,7 +5,7 @@ package ch11_holdingyourobjects.exercise1;
 
 import java.util.ArrayList;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class Gerbil {
     private static int count = 1;

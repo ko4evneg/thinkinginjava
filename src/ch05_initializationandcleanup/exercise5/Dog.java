@@ -3,7 +3,7 @@ package ch05_initializationandcleanup.exercise5;
 // on various primitive data types, and print different types of barking, howling, etc., depending on which overloaded
 // version is called. Write a main( ) that calls all the different versions.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class Dog {
 

@@ -5,7 +5,7 @@ package ch15_generics.exercise1;
 import ch15_generics.exercise1.pets.Cymric;
 import ch15_generics.exercise1.pets.Pet;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class Holders<T> {
 		public T obj;

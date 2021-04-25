@@ -1,6 +1,6 @@
 package ch15_generics.exercise7;
 
-import thinkinginjava.Generator;
+import thinkinginjava.util.Generator;
 
 public class Fibonacci implements Generator<Integer> {
 		private int count = 0;

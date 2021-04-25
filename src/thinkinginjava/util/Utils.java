@@ -1,4 +1,4 @@
-package thinkinginjava;
+package thinkinginjava.util;
 
 import java.io.PrintStream;
 import java.util.LinkedList;

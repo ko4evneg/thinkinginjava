@@ -3,7 +3,7 @@ package ch05_initializationandcleanup.exercise12;
 // must be empty when the object is cleaned up. Write a finalize( ) that verifies this termination condition. In
 // main( ), test the possible scenarios that can occur when your Tank is used.
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class Tank {
     boolean isEmpty = true;

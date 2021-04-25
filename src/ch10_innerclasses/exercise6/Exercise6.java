@@ -6,7 +6,7 @@ package ch10_innerclasses.exercise6;
 import ch10_innerclasses.exercise6.interfaces.Swimmable;
 import ch10_innerclasses.exercise6.pkg.Inherited;
 
-import static thinkinginjava.Utils.print;
+import static thinkinginjava.util.Utils.print;
 
 public class Exercise6 extends Inherited{
 

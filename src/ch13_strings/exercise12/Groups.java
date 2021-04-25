@@ -5,7 +5,7 @@ import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static thinkinginjava.Utils.*;
+import static thinkinginjava.util.Utils.*;
 
 public class Groups {
 		static public final String POEM =
