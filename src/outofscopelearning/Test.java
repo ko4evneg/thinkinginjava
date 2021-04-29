@@ -2,41 +2,28 @@ package outofscopelearning;
 
 import static thinkinginjava.util.Utils.print;
 
-class Candy {
-		static {
-				print("Loading Candy");
-		}
-}
-
-class Gum {
-		static {
-				print("Loading Gum");
-		}
-}
-
-class BubbleGum extends Gum {
-}
-
-class Cookie {
-		static {
-				print("Loading Cookie");
-		}
-}
-
-public class Test<T> {
-		public T t;
-
+public class Test {
 		public static void main(String[] args) {
-				Test<String> test = new Test<>();
-				test.t = "t string outer";
-				Test.Nested<String> testNested = new Test.Nested<>();
-				testNested.t = "t shadowed";
-				System.out.println(test.t);
-				System.out.println(testNested.t);
+				Tezt<Base> teztObj = new Tezt<>();
+				teztObj.t = new Base();
+				Tezt2<Inn> teztStr = new Tezt2<>();
+				teztStr.t = new Inn();
+				System.out.println(teztObj.t.getClass().getCanonicalName());
+				System.out.println(teztStr.t.getClass().getCanonicalName());
 		}
 
-		static class Nested<T> {
-				public T t;
+}
 
-		}
+class Tezt<T> {
+		T t;
+}
+
+class Tezt2<T extends Base>{
+		T t;
+}
+
+class Base {
+}
+
+class Inn extends Base {
 }
